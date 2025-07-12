@@ -65,6 +65,19 @@ st.markdown(
             border-radius: 8px;
             padding: 6px;
         }
+
+        .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        font-size: 14px;
+        z-index: 9999;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -129,3 +142,12 @@ if st.button("Show Recommendation"):
                     <div style="color: #6d3914; font-weight: bold;">⭐ {ratings[i]} / 5</div>
                 </div>
             """, unsafe_allow_html=True)
+
+st.markdown(
+    """
+    <div class="footer">
+        Website by <strong>KASHVI JAISWAL</strong>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
