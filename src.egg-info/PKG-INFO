@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for Books Recommender System
+Home-page: https://github.com/kashvi/Books-Recommendation-System
+Author: kashvi
+Author-email: kvjaiswal10@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: numpy
+
+Books-Recommendation-System
